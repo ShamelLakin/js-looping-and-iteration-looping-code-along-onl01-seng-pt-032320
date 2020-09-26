@@ -1,12 +1,11 @@
-// const name = ["Lisa", "Kaitlin", "Jan"] 
-// const birthday = ("surprise")
- newarr = []
+
 
 function writeCards([names, occasion]){
+    let newArr = []
     for (let i = 0; i < names.length; i++) {
-        console.log([`Thank you, ${names[i]}, for the wonderful ${occasion} gift!`]);
+        newArr.push([`Thank you, ${names}, for the wonderful ${occasion} gift!`]);
     }
-return newArr([]);
+return newArr;
 
 }
 
@@ -18,7 +17,7 @@ return newArr([]);
 
 function countDown() {
     let count = 0;
-    while (count < 10){
+    while (count < 11){
         console.log(count++);
     }
     return count
