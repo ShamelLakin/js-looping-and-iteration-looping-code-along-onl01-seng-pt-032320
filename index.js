@@ -1,9 +1,9 @@
 
 
-function writeCards([names, occasion]){
+function writeCards(names, occasion){
     let newArr = []
     for (let i = 0; i < names.length; i++) {
-        newArr.push([`Thank you, ${names}, for the wonderful ${occasion} gift!`]);
+        newArr.push(`Thank you, ${names[i]}, for the wonderful ${occasion} gift!`);
     }
 return newArr;
 
